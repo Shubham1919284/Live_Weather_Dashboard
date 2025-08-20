@@ -1,108 +1,83 @@
-🌤️ Live Weather Dashboard – Power BI
-This project is an interactive weather analytics dashboard built in Power BI, powered by live data from a weather API.
-The goal was to transform raw API data into a visually engaging and decision-friendly dashboard, combining real-time insights with short-term forecasting.
+🌦️ Live Weather Dashboard – Power BI
 
-📊 Features
-✅ Current Weather Metrics
 
-Temperature (°C)
+An interactive, real-time weather dashboard built in Power BI, powered by a live Weather API.
+This project transforms raw JSON API data into visually engaging, decision-friendly insights and also provides a 2-day temperature forecast.
 
-Humidity (%)
+✨ Key Features
+🔹 Current Weather Conditions
 
-Pressure (hPa)
+🌡️ Temperature (°C)
 
-✅ Wind Analysis
+💧 Humidity (%)
 
-Wind Speed (km/h or m/s)
+🌪️ Pressure (hPa)
 
-Wind Direction with compass visuals
+🔹 Wind & Air Quality
 
-✅ Air Quality Insights
+🌬️ Wind Speed & Direction
 
-AQI (Air Quality Index) values
+🫁 Air Quality Index (AQI)
 
-Clear indicators for safe vs unsafe conditions
+🔹 Time & Sun Cycle
 
-✅ Time-based Insights
+🕒 Current Local Time (dynamic)
 
-Sunrise & Sunset
+🌅 Sunrise & Sunset
 
-Current Local Time display
+☀️ Sunshine Duration (custom DAX measure)
 
-✅ Cloud Cover & Visibility
+🔹 Forecasting
 
-Cloud %
+📈 2-Day Temperature Forecast
 
-Sky condition indicators
+Visual trend charts for proactive planning
 
-✅ Forecasting
+🛠️ Tech Stack
+Power BI → Interactive dashboard design
 
-📈 2-Day Temperature Forecast to support proactive planning
+Weather API → Real-time + forecast data source
 
-⚙️ Tools & Technologies
-Power BI → Interactive data visualization
+Power Query → Data extraction & transformation
 
-Weather API → Live + forecast data extraction
+DAX (Data Analysis Expressions) → Custom calculations for time & KPIs
 
-DAX (Data Analysis Expressions) → Custom measures for:
+JSON → API response parsing
 
-Sunshine Duration
+⚙️ How It Works
+1️⃣ Data Fetching → Connect to Weather API using Power BI Web connector
+2️⃣ Transformation → Clean & structure JSON with Power Query
+3️⃣ DAX Measures → Build custom fields like:
 
-Local Time tracking
+Sunshine Duration = Sunset – Sunrise
 
-Pressure conversion (if needed)
+Current Local Time = NOW() adjusted to timezone
 
-JSON Data Handling → Parsing API responses into Power BI
+Pressure conversions if needed
+4️⃣ Visualization Layer → KPIs, cards, charts, and forecast visuals
 
-🛠️ How It Works
-Data Connection
+📊 Dashboard Preview
 
-Weather API integrated directly into Power BI using Web connector
+📌 Learnings & Takeaways
+🔗 How to integrate live APIs in Power BI
 
-API returns live + forecast data in JSON format
+🧮 Writing DAX measures for custom time-based metrics
 
-Data Transformation
+🎨 Dashboard design for clarity + storytelling
 
-Used Power Query to clean and shape data
+📈 Extending beyond real-time into forecasting
 
-Extracted key fields: temperature, humidity, wind, AQI, sunrise/sunset, forecasts
+🚀 Future Scope
+7-day extended forecast
 
-Custom Calculations (DAX)
+Weather alerts (rain, storms, AQI warnings)
 
-Current Local Time – dynamic time display
-
-Sunshine Duration – difference between sunset and sunrise
-
-Pressure conversion if required
-
-Visualization Layer
-
-Designed KPIs, Cards, and Charts for easy interpretation
-
-Included forecasting visuals for next 2 days
-
-💡 Key Learnings
-Connecting & consuming live APIs inside Power BI
-
-Writing DAX measures for time-based and calculated insights
-
-Designing dashboards that go beyond “current data” by adding predictive context
-
-Dashboard storytelling with weather data
-
-📸 Dashboard Preview
-
-🚀 Future Improvements
-Extend forecast beyond 2 days (weekly trend)
-
-Add severe weather alerts (rain, storm, AQI warnings)
-
-Deploy as a public Power BI Service dashboard
+Deploy public version on Power BI Service
 
 🔗 Links
-📂 GitHub Repository: [this repo link]
+📂 Repository → [Add your repo link here]
 
-💼 LinkedIn Post: [your LinkedIn project showcase link]
+💼 LinkedIn Showcase Post → [Add your LinkedIn post link]
 
-✨ If you like this project, don’t forget to ⭐ the repo!
+⭐ If you found this useful, consider giving this repo a star to support!
 
