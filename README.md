@@ -59,13 +59,16 @@ This project transforms raw JSON API data into **visually engaging, decision-fri
 * Pressure conversions if needed
 
 
-  4️⃣ **Visualization Layer** → KPIs, cards, charts, and forecast visuals
+4️⃣ **Visualization Layer** → KPIs, cards, charts, and forecast visuals
 
 ---
 
 ## 📊 Dashboard Preview
 
 ![Dashboard Screenshot](./Live_Weather_Dashboard.png)
+![Dashboard Screenshot](./Live_Weather_Dashboard1.png)
+![Dashboard Screenshot](./Live_Weather_Dashboard2.png)
+
 
 ---
 
