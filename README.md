@@ -91,7 +91,7 @@ This project transforms raw JSON API data into **visually engaging, decision-fri
 
 ## 🔗 Links
 
-* 📂 **Repository** → \[https://github.com/Shubham1919284/Live_Weather_Dashboard]
+* 📂 **Repository** → \[https://github.com/Shubham1919284/Live_Weather_Dashboard?tab=readme-ov-file]
 * 💼 **LinkedIn Showcase Post** → \[www.linkedin.com/in/shubham-kumar-jha-1a2b3c]
 
 ---
