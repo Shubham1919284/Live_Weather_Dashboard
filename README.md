@@ -82,8 +82,8 @@ This project transforms raw JSON API data into **visually engaging, decision-fri
 
 ## 🔗 Links
 
-* 📂 **Repository** → \[Add your repo link here]
-* 💼 **LinkedIn Showcase Post** → \[Add your LinkedIn post link]
+* 📂 **Repository** → \[https://github.com/Shubham1919284/Live_Weather_Dashboard/blob/main/README.md]
+* 💼 **LinkedIn Showcase Post** → \[https://www.linkedin.com/feed/update/urn:li:ugcPost:7364053796676669443/]
 
 ---
 
