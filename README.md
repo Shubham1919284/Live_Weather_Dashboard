@@ -48,7 +48,11 @@ This project transforms raw JSON API data into **visually engaging, decision-fri
 ## ⚙️ How It Works
 
 1️⃣ **Data Fetching** → Connect to Weather API using Power BI Web connector
+
+
 2️⃣ **Transformation** → Clean & structure JSON with Power Query
+
+
 3️⃣ **DAX Measures** → Build custom fields like:
 
 * `Current Local Time` = NOW() adjusted to timezone
