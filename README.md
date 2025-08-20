@@ -57,6 +57,8 @@ This project transforms raw JSON API data into **visually engaging, decision-fri
 
 * `Current Local Time` = NOW() adjusted to timezone
 * Pressure conversions if needed
+
+
   4️⃣ **Visualization Layer** → KPIs, cards, charts, and forecast visuals
 
 ---
